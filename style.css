@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    background-image: url(img/Init.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+}
+
+span{
+    color: blue;
+}
+
+#carouselExampleRide{
+    width: 500px;
+    margin-left: 410px;
+    margin-top: 100px;
+    background-color: gold;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+
+.navbar-brand{
+    color: tomato;
+    
+}
+
+.navbar-brand:hover{
+    color:blue;
+}
+
+.nav-link {
+    color: aliceblue;
+    
+}
+
+.nav-link:hover{
+    color: tomato;
+}
+
+
+
+.aps{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+  
+}
+
+.text-p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin-left: 550px;
+    margin-right: 550px;
+    color: white;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.mb-3{
+    font-family: cursive;
+    text-align: center;
+    color: aliceblue;
+}
+
+.form-control{
+    width: 430px;
+    margin-left: 550px;
+}
+
+.btn-primary{
+    margin-left: 0px;
+}
+
+.navbar-toggler{
+    color: darkorchid;
+    background-color: darkorchid;
+}
+
+.navbar-toggler-icon{
+    color: aliceblue;
+}
+
+a.nav-link.dropdown-toggle.show::after{
+    color: orange;
+}
+
+li.nav-item.dropdown::after{
+    color: orange;
+}
+
+ul.dropdown-menu.show{
+    color: slategrey;
+    background-color: slategray;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: orange;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: orangered;
+    border-radius: 10px;
+}

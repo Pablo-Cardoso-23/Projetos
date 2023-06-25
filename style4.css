@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(img/Noticia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+span{
+    color: blue;
+}
+
+.navbar-brand{
+    color: tomato;
+}
+
+.navbar-brand:hover{
+    color:blue;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: tomato;
+}
+
+.text-center{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.card-img-top1{
+    height: 190px;
+}
+
+.card-img-top2{
+    height: 190px;
+}
+
+.mb-3{
+    margin-left: 210px;
+    margin-top: -500px;
+}
+
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-title-1{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.mb-3 img:hover{
+    cursor: pointer;
+}
+
+.navbar-toggler{
+    color: darkorchid;
+    background-color: darkorchid;
+}
+
+.navbar-toggler-icon{
+    color: aliceblue;
+}
+
+a.nav-link.dropdown-toggle.show::after{
+    color: orange;
+}
+
+li.nav-item.dropdown::after{
+    color: orange;
+}
+
+ul.dropdown-menu.show{
+    color: slategrey;
+    background-color: slategray;
+}
+
+.plub img{
+    margin-left: 1200px;
+    margin-top: 40px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: darkmagenta;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 760px){
+    .plub img{
+        margin-left: 200px;
+        margin-top: 40px;
+        display: none;
+    }
+
+    .card-img-top1{
+        height: 161px;
+    }
+    
+    .card-img-top2{
+        height: 160px;
+    }
+    
+    .mb-3{
+        margin-left: 210px;
+        margin-top: 100px;
+    }
+
+    .mb-3 img{
+        width: 160px;
+    }
+
+    .mb-3 img:hover{
+        cursor: pointer;
+    }
+
+    ::-webkit-scrollbar{
+        width: 10px;
+        background-color: darkmagenta;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        width: 10px;
+        background-color: blueviolet;
+        border-radius: 10px;
+    }
+
+}
